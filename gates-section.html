@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Legion-Doors.ru</title>
+    <link rel="stylesheet" href="css/main.css">
+    
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/footer.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400;500;600;700;800&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/noUiSlider/14.7.0/nouislider.css">
+    <link rel="stylesheet" href="css/range.css">
+    <link rel="stylesheet" href="css/gates-section.css">
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script defer src="js/burger.js"></script>
+</head>
+<body>
+    <header>
+        <div class="header">
+            <div class="logo-left">
+                <div class="logotype">
+                    <a href="#">
+                        <img src="images/catalog/logo.png" alt="logo">
+                    </a>
+                </div>
+                <div class="header_text">
+                    За нами<br>
+                    будущее<br>
+                    дверных<br>
+                    технологий<br>
+                </div>
+                <div class="contacts">
+                    8 (495) 664 66 03<br>prolegion-doors@yandex.ru
+                </div>
+            </div>
+            <img src="images/header/menu-icon.svg" alt="" id="menu-btn" class="menu-btn">
+            <div class="nav_buttons">
+                <a class="btn_active" href="catalog.html">Каталог</a>
+                <a class="btn_nav" href="article.html">Статьи</a>
+                <a class="btn_nav" href="door-furniture-category.html">Фурнитура</a>
+                <a class="btn_nav" href="index.html">О нас</a>
+            </div>
+        </div>
+        <div class="burger">
+            <div class="burger__window">
+                <div class="burger__close_wrapper">
+                    <span class="burger__close">×</span>
+                </div>
+                <a class="burger__item btn_nav btn_active" href="catalog.html">Каталог</a>
+                <a class="burger__item btn_nav" href="article.html">Статьи</a>
+                <a class="burger__item btn_nav" href="door-furniture-category.html">Фурнитура</a>
+                <a class="burger__item btn_nav" href="index.html">О нас</a>
+            </div>
+        </div>
+    </header>
+
+    <div class="container container-nav">
+        <div class="site_nav">
+            <a class="site-nav_link" href="index.html">Главная</a>
+            <a class="site-nav_link" href="window-catalog.html">> Гаражные ворота</a>
+            <a class="site-nav_link" href="#">> Раздел</a>
+            <a class="site-nav_link" href="#">> Подраздел</a>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="content">
+            <div class="container_window">
+                <div class="info-block">
+                    <div class="text-info">Заполните заявку и получитеконсультацию, запишитесьна замер</div>
+                    <div class="text-info">В ближайшее время мастер будет у вас с каталогом</div>
+                    <div class="text-info">Согласуйте все технические характеристики с мастером, заключите договор</div>
+                    <div class="text-info">В течение 3 - 5 рабочих дней монтажники установят вам новые ворота</div>
+                </div>
+
+                <div class="info-category">
+                    <div class="banner-small">
+                        <div class="banner-small__item">
+                            <img src="images/gates-section/banner1.png" alt="" class="banner-small__img">
+                            <span class="banner-small__text">
+                                Петли на подшипниках
+                            </span>
+                            <img src="images/gates-section/marking-sm.svg" alt="" class="banner-small__marking-sm">
+                        </div>
+                        <div class="banner-small__item">
+                            <img src="images/gates-section/banner2.png" alt="" class="banner-small__img">
+                            <span class="banner-small__text">
+                                Толщина<br>листа 2 мм
+                            </span>
+                            <img src="images/gates-section/marking.svg" alt="" class="banner-small__marking">
+                            <img src="images/gates-section/marking-sm.svg" alt="" class="banner-small__marking-sm">
+                        </div>
+                    </div>
+                    <div class="banner-big">
+                        <img src="images/gates-section/banner3.png" alt="" class="banner-big__img">
+                        <h3 class="banner-big__title">Гаражные ворота ГВ2</h3>
+                        <span class="banner-big__price">от 15 000 руб</span>
+                    </div>
+                </div>
+                
+            </div>
+
+            <div class="product_wrapper">
+                <div class="container">
+                        <h1 class="main-title">Гаражные ворота ГВ2</h1>
+    
+                        <form action="" class="slider_wrapper">
+                            <div class="inputs">
+                                <div class="from">
+                                    <label for="from">
+                                        От: <input type="number" name='from' placeholder="1000" id="input-from">
+                                    </label>
+                                    <div class='slider' id="slider-from"></div>
+                                </div>
+                                <div class="to">
+                                    <label for="to">
+                                        До: <input type="number" name="to" placeholder="15000" id='input-to'>
+                                    </label> 
+                                    <div class="slider" id="slider-to"></div>   
+                                </div>
+                            </div>
+                            <button type='submit' class='submit-btn'>Применить</button>
+                        </form>
+    
+                        <div class="products-row">
+                            <a href="#" class="product">
+                                    <img src="images/gates-section/1.png" alt="product_1">
+                                    <div class="product-title">Гаражные ворота ГВ2</div>
+                                    <div class="price">15 000Р</div>
+                                    <button href="#" class="btn_buy">Купить в один клик</button>
+                                    <span class="product_details">Подробнее</span>
+                            </a>
+        
+                            <a href="#" class="product">
+                                <img src="images/gates-section/2.png" alt="product_2">
+                                <div class="product-title">Гаражные ворота ГВ2</div>
+                                <div class="price">15 000Р</div>
+                                <button href="#" class="btn_buy">Купить в один клик</button>
+                                <span class="product_details">Подробнее</span>
+                            </a>
+        
+                            <a href="#" class="product">
+                                <img src="images/gates-section/3.png" alt="product_3">
+                                <div class="product-title">Гаражные ворота ГВ2</div>
+                                <div class="price">15 000Р</div>
+                                <button href="#" class="btn_buy">Купить в один клик</button>
+                                <span class="product_details">Подробнее</span>
+                            </a>
+        
+                            <a href="#" class="product">
+                                <img src="images/gates-section/4.png" alt="product_4">
+                                <div class="product-title">Гаражные ворота ГВ2</div>
+                                <div class="price">15 000Р</div>
+                                <button href="#" class="btn_buy">Купить в один клик</button>
+                                <span class="product_details">Подробнее</span>
+                            </a>
+        
+                            <a href="#" class="product">
+                                <img src="images/gates-section/1.png" alt="product_5">
+                                <div class="product-title">Гаражные ворота ГВ2</div>
+                                <div class="price">15 000Р</div>
+                                <button href="#" class="btn_buy">Купить в один клик</button>
+                                <span class="product_details">Подробнее</span>
+                            </a>
+        
+                            <a href="#" class="product">
+                                <img src="images/gates-section/2.png" alt="product_6">
+                                <div class="product-title">Гаражные ворота ГВ2</div>
+                                <div class="price">15 000Р</div>
+                                <button href="#" class="btn_buy">Купить в один клик</button>
+                                <span class="product_details">Подробнее</span>
+                            </a>
+        
+                            <a href="#" class="product">
+                                <img src="images/gates-section/3.png" alt="product_7">
+                                <div class="product-title">Гаражные ворота ГВ2</div>
+                                <div class="price">15 000Р</div>
+                                <button href="#" class="btn_buy">Купить в один клик</button>
+                                <span class="product_details">Подробнее</span>
+                            </a>
+        
+                            <a href="#" class="product">
+                                <img src="images/gates-section/4.png" alt="product_8">
+                                <div class="product-title">Гаражные ворота ГВ2</div>
+                                <div class="price">15 000Р</div>
+                                <button href="#" class="btn_buy">Купить в один клик</button>
+                                <span class="product_details">Подробнее</span>
+                            </a>
+        
+                            <a href="#" class="product">
+                                <img src="images/gates-section/1.png" alt="product_1">
+                                <div class="product-title">Гаражные ворота ГВ2</div>
+                                <div class="price">15 000Р</div>
+                                <button href="#" class="btn_buy">Купить в один клик</button>
+                                <span class="product_details">Подробнее</span>
+                            </a>
+        
+                            <a href="#" class="product">
+                                <img src="images/gates-section/2.png" alt="product_2">
+                                <div class="product-title">Гаражные ворота ГВ2</div>
+                                <div class="price">15 000Р</div>
+                                <button href="#" class="btn_buy">Купить в один клик</button>
+                                <span class="product_details">Подробнее</span>
+                            </a>
+        
+                            <a href="#" class="product">
+                                <img src="images/gates-section/3.png" alt="product_3">
+                                <div class="product-title">Гаражные ворота ГВ2</div>
+                                <div class="price">15 000Р</div>
+                                <button href="#" class="btn_buy">Купить в один клик</button>
+                                <span class="product_details">Подробнее</span>
+                            </a>
+        
+                            <a href="#" class="product">
+                                <img src="images/gates-section/4.png" alt="product_4">
+                                <div class="product-title">Гаражные ворота ГВ2</div>
+                                <div class="price">15 000Р</div>
+                                <button href="#" class="btn_buy">Купить в один клик</button>
+                                <span class="product_details">Подробнее</span>
+                            </a>
+        
+                        </div>
+    
+                        <div class="page-steps">
+                            <div class="steps">
+                                <a href="#" class="page_active">1⠀</a>
+                                <a href="#" class="next_page">2⠀</a>
+                                <a href="#" class="next_page">3⠀>⠀</a>
+                                <a href="#" class="next_page">>></a>
+                            </div>
+                        </div>
+    
+                </div>
+            </div>
+    
+        </div>
+    </div>
+
+
+    <footer>
+        <div class="logo">
+            <div class="logotype">
+                <a href="#">
+                    <img src="images/catalog/logo.png" alt="logo">
+                </a>
+            </div>
+            <div class="footer_text">
+                За нами<br>
+                будущее<br>
+                дверных<br>
+                технологий<br>
+            </div>
+        </div>
+
+            <div class="contact-block">
+                <div class="contacts">
+                    <a href="tel:84956646603">
+                        <img src="images/catalog/icon1.png" alt="">
+                        8 (495) 664 66 03
+                    </a>
+                </div>
+                <div class="contacts-email">
+                    <a href="mailto:prolegion-doors@yandex.ru">
+                        <img src="images/catalog/icon2.png" alt="">
+                        prolegion-doors@yandex.ru
+                    </a>
+                </div>
+            </div>
+    </footer>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/noUiSlider/14.7.0/nouislider.min.js"></script>
+    <script src="js/range.js"></script>
+</body>
+</html>

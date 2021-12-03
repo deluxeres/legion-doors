@@ -1,0 +1,207 @@
+html {
+    max-width: 100vw;
+    overflow-x: hidden;
+}
+body {
+    background-color: #000;
+    overflow-x: hidden;
+}
+a {
+    color: #fff;
+}
+
+.block-wrap {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.content {
+    padding-top: 50px;
+    height: 100vh;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+}
+.block_1 {
+    width: 295px;
+    height: 213px;
+    border-radius: 25px;
+    margin-bottom: 40px;
+    padding-left: 20px;
+    background-image: url(../images/index/1.png);
+    background-repeat:  no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.block_2 {
+    align-items: center;
+    width: 295px;
+    height: 213px;
+    border-radius: 25px;
+    margin-bottom: 40px;
+    padding-left: 20px;
+    background-image: url(../images/index/3.png);
+    background-repeat:  no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.block_3 {
+    align-items: center;
+    width: 295px;
+    height: 213px;
+    border-radius: 25px;
+    margin-bottom: 40px;
+    padding-left: 20px;
+    background-image: url(../images/index/2.png);
+    background-repeat:  no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.main-text {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
+    font-size: 40px;
+    color: #fff;
+
+}
+
+.logotype {
+    margin-top: 150px;
+}
+
+.row {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+
+.text-block-title {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    font-weight: 800;
+    color: #fff;
+}
+
+.text-block {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+    color: #fff;
+}
+
+.text_block {
+    padding-top: 40px;
+}
+
+.logo-door {
+    position: absolute;
+    top: 50%;
+    left: 61%;
+}
+
+.door-block {
+    position: relative;
+}
+@media (max-width: 1499px) {
+    .main-text {
+        width: 478px;
+    }
+    .door-block {
+        position: fixed;
+        bottom: 0;
+        right: -50px;
+    }
+    .content {
+        padding-top: 30px;
+    }
+}
+@media (max-width: 1023px) {
+    .block_1, .block_2 {
+        width: 48%;
+    }
+    .block_3 {
+        width: 100%;
+    }
+    .row {
+        margin-top: 0;
+        position: relative;
+        display: block;
+    }
+    .main-text {
+        width: 325px;
+        margin: 0;
+        display: flex;
+        flex-direction: column;
+        height:540px;
+    }
+    .logotype {
+        margin: 0;
+        position: fixed;
+        bottom: 30px;
+        left: 30px;
+    }
+    .door-block {
+        position: fixed;
+        right: -50px;
+    }
+}
+@media (max-width: 767px) {
+    html {
+        overflow-y: visible;
+    }
+    .block-wrap {
+        flex-wrap: nowrap;
+        flex-direction: column;
+        align-items: center;
+    }
+    .block_1, .block_2, .block_3 {
+        width: 290px;
+    }
+    .row {
+        flex-direction: column;
+        height: auto;
+    }
+    .main-text {
+        width: 290px;
+        height: auto;
+        margin: auto;
+    }
+    .logotype {
+        position: static;
+        margin-top: 30px;
+    }
+    .door-block {
+        position: static;
+        top: 200px;
+        height: auto;
+        width: 100vw;
+    }
+    .door-img {
+        position: static;
+        width: 100%;
+        display: inline-block;
+    }
+    .content {
+        padding-top: 0px;
+    }
+    .logo-door {
+        display: none;
+    }
+    .door-block > a {
+        width: 290px;
+    }
+}
+
+
+
+
+
+
+
+
